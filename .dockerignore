@@ -1,5 +1,11 @@
 draft.toml
 charts/
+target/classes
+target/test-classes
+target/*.original
+target/maven-*
+target/surefire-reports
+target/generated-*
 NOTICE
 LICENSE
 README.md
