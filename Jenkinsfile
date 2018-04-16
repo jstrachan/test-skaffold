@@ -61,7 +61,7 @@ pipeline {
             sh '''
                 export VERSION="`cat VERSION`"
                 skaffold run -f skaffold.yaml
-            ''''
+            '''
 
             /*
             sh "docker build -t \$JENKINS_X_DOCKER_REGISTRY_SERVICE_HOST:\$JENKINS_X_DOCKER_REGISTRY_SERVICE_PORT/$ORG/$APP_NAME:\$(cat VERSION) ."
